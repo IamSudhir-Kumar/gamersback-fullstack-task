@@ -1,0 +1,11 @@
+{
+  "name": "gamersback-fullstack-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/IamSudhir-Kumar/gamersback-fullstack-task.git",
+  "author": "SUDHIR KUMAR <112376748+IamSudhir-Kumar@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
