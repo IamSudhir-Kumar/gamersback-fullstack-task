@@ -7,29 +7,24 @@
     padding: 0 20px;
 
     &__logo {
-        h3 {
+        h5 {
             color: white;
             font-weight: 300;
         }
     }
 
 
-    &__buttons {
-      button{
-        margin-left: 10px;
-        padding: 10px;
-        outline: none;
-        border: none;
-        border-radius: 10px;
-        min-width: 150px;
-        cursor: pointer;
-      }
+    // &__buttons {
+    //   button{
+    //     margin-left: 10px;
+    //     padding: 10px;
+    //     outline: none;
+    //     border: none;
+    //     border-radius: 10px;
+    //     min-width: 150px;
+    //     cursor: pointer;
+    //   }
        
-    }
-    .button {
-        background-color: white;
-
-    }
-
+    // }
 
 }

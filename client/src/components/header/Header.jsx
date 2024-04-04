@@ -1,16 +1,17 @@
 
 import './Header.scss'
+import '../../styles/components/_button.scss'
 
 const Header = () => {
   return (
     <div>
       <nav className="header">
         <div className="header__logo">
-          <h3> TASK Manager </h3>
+          <h5> TASK Manager </h5>
         </div>
         <div className="header__buttons">
-          <button>Sign In</button>
-          <button>Sign Out</button>
+          <button className='button'>Sign In</button>
+          <button className='button'>Sign Out</button>
         </div>
       </nav>
     </div>
