@@ -4,6 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "email-validator": "^2.0.4",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.2.4"
   }
 }

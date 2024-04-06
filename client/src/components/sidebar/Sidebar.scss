@@ -1,0 +1,22 @@
+// Define variables for colors
+$sidebar-bg-color: #FF7F7F;
+$sidebar-text-color: white;
+
+
+.sidebar {
+  background-color: $sidebar-bg-color;
+  color: $sidebar-text-color;
+  height: 100vh;
+  padding: 1rem 1rem 0 2rem;
+  max-width: 15vw;
+  border-radius: 0 20px 0 0;
+  align-items: center;
+  .list-item {
+    margin: 1rem 0;
+    transition: 0.3s ease-in-out; 
+    &:hover {
+      color: black;
+      transform: scale(1.1);
+    }
+  }
+}

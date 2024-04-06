@@ -1,0 +1,32 @@
+.addtask {
+    width: 100%;
+
+    form {
+        width: 70%;
+        margin: 3rem;
+        display: flex;
+    }
+
+    input {
+        padding: 15px;
+        width: 30rem;
+        border: none;
+        outline: none;
+        background-color: whitesmoke;
+        border-radius: 5px;
+        border: 1px solid #FF7F7F;
+    }
+    button {
+        padding: 5px;
+        background-color: red;
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+            background-color: #FF7F7F;
+            color: white;
+        }
+    }
+}
