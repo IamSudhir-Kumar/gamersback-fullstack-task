@@ -65,7 +65,7 @@ const Signup = () => {
                     <div className='form-group'>
                         <button
                             className='button'>
-                            Sing Up
+                            Sign Up
                         </button>
                     </div>
                 </form>
